@@ -24,11 +24,11 @@ Can create new files to test out everything in JupyterLab as well
 ## Outputs
 Tokens by book dictionary in memory
 Counts parquet file in src cache
+Printed tables of top tf and top tf idf terms
+Nearest neighbor lists for selected books
+Topic ranking tables
+Optional figures saved from notebook
 
-printed tables of top tf and top tf idf terms
-
-nearest neighbor lists for selected books
-
-topic ranking tables
-
-optional figures saved from notebook
+## References
+Jurafsky, D., & Martin, J. H. (n.d.). Speech and language processing (3rd ed., draft), Chapter 11, p. 13.
+CS242 Staff. (n.d.). Project 1: TFIDF Handout. Course handout.
