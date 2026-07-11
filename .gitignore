@@ -1,0 +1,9 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Downloaded corpus is reproducible via src/download_books.py (+ data/metadata.json).
+# The original sample books remain tracked; new downloads are ignored to keep the repo light.
+data/*.txt
+!data/metadata.json
