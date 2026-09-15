@@ -29,7 +29,7 @@ def load_everything():
 
 
 st.set_page_config(page_title="Classical Book Recommender", page_icon="📚")
-st.title("📚 Classical Book Recommender")
+st.title("Classical Book Recommender")
 st.caption("Compare TF-IDF, BM25 and LSA retrieval over Project Gutenberg classics.")
 
 models, token_sets, rec = load_everything()
