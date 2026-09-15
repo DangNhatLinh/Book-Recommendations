@@ -28,7 +28,7 @@ def load_everything():
     return models, token_sets, recommender
 
 
-st.set_page_config(page_title="Classical Book Recommender", page_icon="📚")
+st.set_page_config(page_title="Classical Book Recommender", page_icon="")
 st.title("Classical Book Recommender")
 st.caption("Compare TF-IDF, BM25 and LSA retrieval over Project Gutenberg classics.")
 
